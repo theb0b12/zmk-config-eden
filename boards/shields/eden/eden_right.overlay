@@ -1,4 +1,4 @@
-#include "ehen.dtsi"
+#include "eden.dtsi"
 
 / {
     kscan0: kscan0 {
@@ -29,7 +29,7 @@
     row-offset = <1>;
 };
 
-&physical_layout_ehen {
+&physical_layout_eden {
     kscan = <&kscan0>;
 };
 

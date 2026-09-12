@@ -1,4 +1,4 @@
-#include "ehen-layouts.dtsi"
+#include "eden-layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
@@ -15,7 +15,7 @@
     };
 };
 
-&physical_layout_ehen {
+&physical_layout_eden {
     transform = <&matrix_transform0>;
 };
 

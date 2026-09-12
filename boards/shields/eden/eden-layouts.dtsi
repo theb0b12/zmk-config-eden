@@ -1,9 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout_ehen: physical_layout_ehen {
+    physical_layout_eden: physical_layout_eden {
         compatible = "zmk,physical-layout";
-        display-name = "ehen";
+        display-name = "eden";
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100  635   56  (-200)   685   106>
             , <&key_physical_attrs 100 100   49(-18)  (-300)    99    32>
