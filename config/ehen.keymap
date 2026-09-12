@@ -2,16 +2,46 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <16 1>;
+            layers = <0>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        x {
+            bindings = <&kp X>;
+            key-positions = <17 18>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "Base";
+        base {
             bindings = <
-                &kp A &kp B &kp C &kp D &kp E &kp F &kp G &kp H
-                &kp I &kp J &kp K &kp L &kp M &kp N &kp O &kp P
-                &kp Q &kp R &kp S &kp T &kp U &kp V &kp W &kp X
-                &kp Y &kp Z &kp A &kp B &kp C &kp D
+&kp Y  &kp W  &kp E     &kp R    &kp T                &kp U      &kp I      &kp O
+&kp N  &kp S  &kp D     &kp F    &kp G                &kp K      &kp K      &kp L
+&kp A  &kp B  &kp C     &kp P                         &kp M      &kp COMMA  &kp DOT  &kp H
+              &kp LGUI  &kp RET  &kp BSPC  &kp SPACE  &kp LSHFT  &trans
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&kp N6  &kp N2  &kp N3  &kp N4  &kp N5          &kp N7  &kp N8  &kp N9
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans
+&kp N1  &trans  &trans  &trans                  &trans  &trans  &trans  &kp N0
+                &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
