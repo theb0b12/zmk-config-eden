@@ -133,37 +133,37 @@
 
         q {
             bindings = <&kp Q>;
-            key-positions = <16 1>;
+            key-positions = <16 9>;
             layers = <0>;
         };
 
         z {
             bindings = <&kp Z>;
-            key-positions = <16 17>;
+            key-positions = <17 18>;
             layers = <0>;
         };
 
         b {
             bindings = <&kp B>;
-            key-positions = <12 19>;
+            key-positions = <19 18>;
             layers = <0>;
         };
 
         y {
             bindings = <&kp Y>;
-            key-positions = <0 5>;
+            key-positions = <5 6>;
             layers = <0>;
         };
 
         slash {
             bindings = <&kp SLASH>;
-            key-positions = <22 23>;
+            key-positions = <22 21>;
             layers = <0>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <7 23>;
+            key-positions = <7 6>;
             layers = <0>;
         };
     };
